@@ -1,0 +1,4 @@
+Welcome to Blocmetrics, <%= @user.email %>
+
+Thanks for signing up! To confirm your registration click the URL below.
+<%= confirm_url(@user.confirm_token) %>

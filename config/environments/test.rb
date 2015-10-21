@@ -31,6 +31,8 @@ Rails.application.configure do
   # ActionMailer::Base.deliveries array.
   config.action_mailer.delivery_method = :test
 
+  config.action_mailer.default_url_options = { :host => "localhost" }
+
   # Randomize the order test cases are executed.
   config.active_support.test_order = :random
 
@@ -40,3 +42,4 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 end
+

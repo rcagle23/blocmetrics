@@ -9,6 +9,10 @@ group :development do
  gem 'sqlite3'
 end
 
+gem 'bcrypt', :require => 'bcrypt'
+gem 'bootstrap-sass'
+gem 'figaro', '1.0'
+gem 'faker'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 # Use SCSS for stylesheets
