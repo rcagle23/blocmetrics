@@ -1,0 +1,4 @@
+<h1>Welcome to Blocmetrics, <%= @user.email %></h1>
+
+<p>Thanks for signing up! To confirm your registration click the URL below.</p>
+<p><%= confirm_url(@user.confirm_token) %></p>
